@@ -37,7 +37,7 @@ export default function Page() {
     React.useEffect(() => {
         try {
             if (mangaEntry?.media?.title?.userPreferred) {
-                document.title = `${mangaEntry?.media?.title?.userPreferred} | Seanime`
+                document.title = `${mangaEntry?.media?.title?.userPreferred} | Tori`
             }
         }
         catch {

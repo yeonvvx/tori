@@ -494,7 +494,7 @@ function MpvCorePlayerContent(props: MpvCorePlayerContentProps) {
         const episode = info.episode
         const anime = info.media
 
-        const title = episode?.displayTitle || info.localFile?.name || "Seanime"
+        const title = episode?.displayTitle || info.localFile?.name || "Tori"
         const artist = anime?.title?.userPreferred || anime?.title?.romaji || anime?.title?.english || "Anime"
 
         const artwork: MediaImage[] = []

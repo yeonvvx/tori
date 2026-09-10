@@ -179,7 +179,7 @@ export function PlaybackSettings() {
 
             {__isElectronDesktop__ && (
                 <SettingsCard
-                    title="Seanime Denshi"
+                    title="Tori Denshi"
                     className="border-[--border] bg-[--paper]"
                 >
                     <div className="space-y-5">

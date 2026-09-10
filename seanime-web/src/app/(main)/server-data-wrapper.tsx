@@ -122,7 +122,7 @@ export function ServerDataWrapper(props: ServerDataWrapperProps) {
                 <img src="/seanime-logo.png" alt="logo" className="w-14 h-auto" />
             </div>
             <p className="text-center text-lg">
-                Seanime is currently updating. Refresh the page once the update is complete and the connection has been reestablished.
+                Tori is currently updating. Refresh the page once the update is complete and the connection has been reestablished.
             </p>
         </div>
     }

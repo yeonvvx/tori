@@ -179,8 +179,8 @@ export default function Page() {
 
     if (serverStatus?.settings?.torrent?.defaultTorrentClient !== "seanime") {
         return <PageWrapper className="p-4 sm:p-8">
-            <LuffyError title="Seanime torrent client is not active">
-                <p className="max-w-md">Select Seanime as the default torrent client to use this dashboard.</p>
+            <LuffyError title="Tori torrent client is not active">
+                <p className="max-w-md">Select Tori as the default torrent client to use this dashboard.</p>
                 <SeaLink href="/settings"><Button intent="white">Open settings</Button></SeaLink>
             </LuffyError>
         </PageWrapper>
@@ -309,7 +309,7 @@ function Dashboard() {
         <header className="flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between">
             <div>
                 <h2>Torrent client</h2>
-                <p className="text-[--muted]">Manage downloads running directly in Seanime.</p>
+                <p className="text-[--muted]">Manage downloads running directly in Tori.</p>
             </div>
             <div className="flex flex-wrap gap-2">
                 <Button leftIcon={<LuMagnet />} intent="white" onClick={() => setAddOpen(true)}>Add torrent</Button>
@@ -751,7 +751,7 @@ function Dashboard() {
             open={addOpen}
             onOpenChange={setAddOpen}
             title="Add torrent"
-            description="Add a magnet link to the Seanime torrent client."
+            description="Add a magnet link to the Tori torrent client."
             contentClass="max-w-xl"
             footer={<Button
                 intent="white" disabled={!magnet || !addDestination || action.isPending} onClick={() => {
@@ -780,7 +780,7 @@ function Dashboard() {
             open={moveOpen}
             onOpenChange={setMoveOpen}
             title="Change save path"
-            description="Seanime will pause the torrent, move its files, and verify the data."
+            description="Tori will pause the torrent, move its files, and verify the data."
             contentClass="max-w-xl"
             footer={<Button
                 intent="white" disabled={!single || !moveDestination || action.isPending} onClick={() => {

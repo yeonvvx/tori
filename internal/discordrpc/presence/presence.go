@@ -230,9 +230,9 @@ var (
 		Assets: &discordrpc_client.Assets{
 			LargeImage: "",
 			LargeText:  "",
-			// SmallImage: "https://seanime.app/images/circular-logo.png",
+			// SmallImage: "https://toritv.com/images/circular-logo.png",
 			// SmallText:  "Seanime v" + constants.Version,
-			// SmallURL:   "https://seanime.app",
+			// SmallURL:   "https://toritv.com",
 			SmallImage: "",
 			SmallText:  "",
 			SmallURL:   "",
@@ -245,7 +245,7 @@ var (
 		Buttons: []*discordrpc_client.Button{
 			{
 				Label: "Tori",
-				Url:   "https://seanime.app",
+				Url:   "https://toritv.com",
 			},
 		},
 		Instance:          true,
@@ -260,7 +260,7 @@ func isSeanimeButtonPresent(activity *discordrpc_client.Activity) bool {
 	// 	return false
 	// }
 	// for _, button := range activity.Buttons {
-	// 	if button.Label == "Seanime" && button.Url == "https://seanime.app" {
+	// 	if button.Label == "Tori" && button.Url == "https://toritv.com" {
 	// 		return true
 	// 	}
 	// }
@@ -374,7 +374,7 @@ func (p *Presence) SetAnimeActivity(a *AnimeActivity) {
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
 			Label: "Tori",
-			Url:   "https://seanime.app",
+			Url:   "https://toritv.com",
 		})
 	}
 
@@ -560,7 +560,7 @@ func (p *Presence) LegacySetAnimeActivity(a *LegacyAnimeActivity) {
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
 			Label: "Tori",
-			Url:   "https://seanime.app",
+			Url:   "https://toritv.com",
 		})
 	}
 
@@ -622,7 +622,7 @@ func (p *Presence) SetMangaActivity(a *MangaActivity) {
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
 			Label: "Tori",
-			Url:   "https://seanime.app",
+			Url:   "https://toritv.com",
 		})
 	}
 
@@ -748,7 +748,7 @@ func (p *Presence) SetCustomActivity(a *CustomActivity) {
 		if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 			activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
 				Label: "Tori",
-				Url:   "https://seanime.app",
+				Url:   "https://toritv.com",
 			})
 		}
 	}

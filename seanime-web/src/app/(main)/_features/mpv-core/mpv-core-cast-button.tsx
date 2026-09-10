@@ -62,7 +62,7 @@ export function MpvCoreCastButton(props: MpvCoreCastButtonProps) {
         await window.electron.cast.loadMedia({
             streamUrl,
             contentType: props.info.mimeType || "video/mp4",
-            title: props.info.media?.title?.userPreferred || "Seanime",
+            title: props.info.media?.title?.userPreferred || "Tori",
             subtitle: props.info.episode?.displayTitle || "",
             imageUrl: props.info.media?.coverImage?.large || "",
             serverPort: Number(serverBaseUrl.split(":").pop()) || 43211,

@@ -152,7 +152,7 @@ export default function Page() {
                                 <Card className="p-4">
                                     <div>
                                         <p className="text-[--muted]">
-                                            Seanime successfully scanned {selectedSummary.groups?.length} media
+                                            Tori successfully scanned {selectedSummary.groups?.length} media
                                             {debouncedSearchQuery.trim() && (
                                                 <span className="ml-2 text-sm">({filteredGroups.length} matching)</span>
                                             )}

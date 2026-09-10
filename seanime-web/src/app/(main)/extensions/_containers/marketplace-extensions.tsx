@@ -340,7 +340,7 @@ export function MarketplaceExtensions(props: MarketplaceExtensionsProps) {
                         intent="warning"
                         title="No content providers available"
                         description={<div>
-                            <p>The Seanime default marketplace no longer indexes content providers. Find a new repository URL online and add it.</p>
+                            <p>The Tori default marketplace no longer indexes content providers. Find a new repository URL online and add it.</p>
                             <Button
                                 intent="primary"
                                 size="sm"

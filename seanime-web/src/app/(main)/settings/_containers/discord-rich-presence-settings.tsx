@@ -50,7 +50,7 @@ export function DiscordRichPresenceSettings(props: DiscordRichPresenceSettingsPr
                 <Field.Switch
                     side="right"
                     name="richPresenceHideSeanimeRepositoryButton"
-                    label="Hide Seanime Repository Button"
+                    label="Hide Tori Repository Button"
                 />
 
                 {/*<Field.Switch*/}

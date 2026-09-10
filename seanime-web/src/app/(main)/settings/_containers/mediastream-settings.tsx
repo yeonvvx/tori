@@ -168,7 +168,7 @@ export function MediastreamSettings(props: MediastreamSettingsProps) {
                                 side="right"
                                 name="disableAutoSwitchToDirectPlay"
                                 label="Prefer transcoding"
-                                help="If enabled, Seanime will not automatically switch to direct play if the media codec is supported by the client."
+                                help="If enabled, Tori will not automatically switch to direct play if the media codec is supported by the client."
                             />
 
                             <Field.Switch
