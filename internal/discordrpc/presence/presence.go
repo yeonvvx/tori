@@ -224,7 +224,7 @@ func (p *Presence) check() (proceed bool) {
 
 var (
 	defaultActivity = discordrpc_client.Activity{
-		Name:    "Seanime",
+		Name:    "Tori",
 		Details: "",
 		State:   "",
 		Assets: &discordrpc_client.Assets{
@@ -244,7 +244,7 @@ var (
 		},
 		Buttons: []*discordrpc_client.Button{
 			{
-				Label: "Seanime",
+				Label: "Tori",
 				Url:   "https://seanime.app",
 			},
 		},
@@ -373,7 +373,7 @@ func (p *Presence) SetAnimeActivity(a *AnimeActivity) {
 
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
-			Label: "Seanime",
+			Label: "Tori",
 			Url:   "https://seanime.app",
 		})
 	}
@@ -559,7 +559,7 @@ func (p *Presence) LegacySetAnimeActivity(a *LegacyAnimeActivity) {
 
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
-			Label: "Seanime",
+			Label: "Tori",
 			Url:   "https://seanime.app",
 		})
 	}
@@ -621,7 +621,7 @@ func (p *Presence) SetMangaActivity(a *MangaActivity) {
 
 	if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 		activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
-			Label: "Seanime",
+			Label: "Tori",
 			Url:   "https://seanime.app",
 		})
 	}
@@ -747,7 +747,7 @@ func (p *Presence) SetCustomActivity(a *CustomActivity) {
 		}
 		if !(p.settings.RichPresenceHideSeanimeRepositoryButton || len(activity.Buttons) > 1) {
 			activity.Buttons = append(activity.Buttons, &discordrpc_client.Button{
-				Label: "Seanime",
+				Label: "Tori",
 				Url:   "https://seanime.app",
 			})
 		}
