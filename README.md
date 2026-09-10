@@ -1,32 +1,32 @@
 <p align="center">
-<a href="https://seanime.app/">
-<img src="docs/images/seanime-logo.png" alt="preview" width="70px"/>
+<a href="https://toritv.com/">
+<img src="https://github.com/yeonvvx/tori/blob/main/seanime-web/public/seanime-logo.png?raw=true" alt="preview" width="70px"/>
 </a>
 </p>
 
-<h1 align="center"><b>Seanime</b></h1>
+<h1 align="center"><b>Tori</b></h1>
 
 <p align="center">
-<img src="https://s3.seanime.app/sea/img-20260508-090529-ioc20pjr--sq2.webp" alt="preview" width="100%"/>
+<img src="docs/images/tori-preview.png" alt="preview" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://seanime.app/docs">Documentation</a> |
-  <a href="https://github.com/5rahim/seanime/releases">Latest release</a> |
-  <a href="https://seanime.app/docs/policies">Copyright</a>
+  <a href="https://docs.toritv.com">Documentation</a> |
+  <a href="https://github.com/yeonvvx/tori/releases">Latest release</a> |
+  <a href="https://toritv.com">Copyright</a>
 </p>
 
 <div align="center">
-  <a href="https://github.com/5rahim/seanime/releases">
-    <img src="https://img.shields.io/github/v/release/5rahim/seanime?style=flat-square&color=blue" alt="" />
+  <a href="https://github.com/yeonvvx/tori/releases">
+    <img src="https://img.shields.io/github/v/release/yeonvvx/tori?style=flat-square&color=blue" alt="" />
   </a>
-  <a href="https://github.com/5rahim/seanime/releases">
-    <img src="https://img.shields.io/github/downloads/5rahim/seanime/total?style=flat-square&color=blue" alt="" />
+  <a href="https://github.com/yeonvvx/tori/releases">
+    <img src="https://img.shields.io/github/downloads/yeonvvx/tori/total?style=flat-square&color=blue" alt="" />
   </a>
-	<a href="https://discord.gg/Aruz7wdAaf">
+	<a href="https://discord.gg/cvxmdfEcYM">
 	  <img src="https://img.shields.io/discord/1224767201551192224?style=flat-square&logo=Discord&color=blue&label=Discord" alt="discord">
 	</a>
-  <a href="https://github.com/sponsors/5rahim">
+  <a href="https://github.com/sponsors/yeonvvx">
     <img src="https://img.shields.io/static/v1?label=Sponsor&style=flat-square&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="" />
   </a>
 </div>
@@ -38,17 +38,17 @@ Leave a star if you like the project! ⭐️
 
 ## About
 
-Seanime is a **media server** with a **web interface** and **desktop app** for managing your local library, streaming anime and reading manga.
+Tori is a **media server** with a **web interface** and **desktop app** for managing your local library, streaming anime and reading manga.
 
 > [!IMPORTANT]
->Seanime does not provide, host, or distribute any media content. Users are responsible for obtaining media through legal means and complying with their local laws. Extensions listed on the app are unaffiliated with Seanime and may be removed if they violated copyright laws. </strong>
+>Tori does not provide, host, or distribute any media content. Users are responsible for obtaining media through legal means and complying with their local laws. Extensions listed on the app are unaffiliated with Tori and may be removed if they violated copyright laws. </strong>
 
 
 ## Features
 
 - **Cross-platform**: Web interface and desktop app for Windows, Linux, and macOS, companion and mobile server apps for iOS and Android
-- **Seanime Denshi**: Desktop client with built-in libmpv-based video player (support for SSA/ASS subtitles, shaders, and more)
-- **Seanime Tenji**: Companion app for iOS and Android to browse your library, manage your AniList, stream content, and enjoy offline access. Connect to your existing Seanime server or host your own directly on your mobile device with the Mobile Server app
+- **Tori Denshi**: Desktop client with built-in libmpv-based video player (support for SSA/ASS subtitles, shaders, and more)
+- **Tori Tenji**: Companion app for iOS and Android to browse your library, manage your AniList, stream content, and enjoy offline access. Connect to your existing Tori server or host your own directly on your mobile device with the Mobile Server app
 - **AniList Integration**: Browse and manage your lists, discover anime and manga
 - **Custom Sources**: Support for adding non-AniList anime and manga series 
 - **Library Management**: Fast and smart scanning of local files without strict naming conventions or folder structures
@@ -69,11 +69,11 @@ Seanime is a **media server** with a **web interface** and **desktop app** for m
 
 ## Get started
 
-Read the installation guide to set up Seanime on your device.
+Read the installation guide to set up Tori on your device.
 
 <p align="center">
-<a href="https://seanime.app/docs" style="font-size:18px;" align="center">
-How to install Seanime
+<a href="https://docs.toritv.com" style="font-size:18px;" align="center">
+How to install Tori
 </a>
 </p>
 
@@ -81,7 +81,7 @@ How to install Seanime
 
 ## Goal
 
-This is a one-person project and may not meet every use case. If it doesn’t fully fit your needs, other tools might be a better match.
+This is a one-person project and may not meet every use case. If it doesn't fully fit your needs, other tools might be a better match.
 
 ### Not planned
 
@@ -92,31 +92,22 @@ This is a one-person project and may not meet every use case. If it doesn’t fu
 
 Consider sponsoring or sharing the project if you want to see more features implemented.
 
-## Sponsors
-
-The maintenance of this project is made possible by the sponsors.
-
-<p align="center">
-<!-- real-sponsors --><a href="https://github.com/TorBox-App"><img src="https:&#x2F;&#x2F;github.com&#x2F;TorBox-App.png" width="60px" alt="User avatar: TorBox-App" /></a><!-- real-sponsors -->
-<!-- real-sponsors --><a href="https://github.com/osayed0001"><img src="https:&#x2F;&#x2F;github.com&#x2F;osayed0001.png" width="60px" alt="User avatar: osayed0001" /></a><!-- real-sponsors -->
-</p>
-
 ## Tech stack
 
 * Server: [Go](https://go.dev/)
 * Frontend: [React](https://reactjs.org/), [Rsbuild/Rspack](https://rsbuild.rs/), [Tanstack Router](https://tanstack.com/router)
-* Seanime Denshi: [Electron](https://www.electronjs.org/)
+* Tori Denshi: [Electron](https://www.electronjs.org/)
 
 ## Development and Build
 
 Building from source is straightforward, you'll need [Node.js](https://nodejs.org/en/download) and [Go](https://go.dev/doc/install) installed on your system.
 Development and testing might require additional configuration.
 
-[Read more here](https://github.com/5rahim/seanime/blob/main/DEVELOPMENT_AND_BUILD.md)
+[Read more here](https://github.com/yeonvvx/tori/blob/main/DEVELOPMENT_AND_BUILD.md)
 
 <br>
 
 <br>
 
 > [!NOTE]
-> For copyright-related requests, please contact the maintainer using the contact information provided on [the website](https://seanime.app/docs/policies).
+> For copyright-related requests, please contact the maintainer using the contact information provided on [the website](https://toritv.com).
