@@ -1,0 +1,35 @@
+package manga
+
+import (
+	"tori/internal/database/db"
+	"tori/internal/events"
+	"tori/internal/extension"
+	"tori/internal/testutil"
+	"tori/internal/util"
+	"testing"
+)
+
+func NewTestRepository(t *testing.T, db *db.Database) *Repository {
+	t.Helper()
+
+	return NewTestRepositoryWithEnv(testutil.NewTestEnv(t), db)
+}
+
+func NewTestRepositoryWithEnv(env *testutil.TestEnv, db *db.Database) *Repository {
+	logger := env.Logger()
+	cacheDir := env.EnsureCacheDir()
+	fileCacher := env.NewCacher()
+
+	repository := NewRepository(&NewRepositoryOptions{
+		Logger:           logger,
+		FileCacher:       fileCacher,
+		CacheDir:         cacheDir,
+		ServerURI:        "",
+		WsEventManager:   events.NewMockWSEventManager(logger),
+		DownloadDir:      env.MustMkdirData("manga"),
+		Database:         db,
+		ExtensionBankRef: util.NewRef(extension.NewUnifiedBank()),
+	})
+
+	return repository
+}
