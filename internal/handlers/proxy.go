@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yeonix/hls-m3u8/m3u8"
+	"github.com/yeonvvx/hls-m3u8/m3u8"
 	"github.com/goccy/go-json"
 	"github.com/labstack/echo/v4"
 	"github.com/rs/zerolog/log"

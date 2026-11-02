@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yeonix/go-astisub"
+	"github.com/yeonvvx/go-astisub"
 	"github.com/imroc/req/v3"
 	"github.com/rs/zerolog"
 )

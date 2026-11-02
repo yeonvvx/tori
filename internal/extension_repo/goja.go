@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 	"github.com/dop251/goja"
 	gojabuffer "github.com/dop251/goja_nodejs/buffer"
 	gojarequire "github.com/dop251/goja_nodejs/require"

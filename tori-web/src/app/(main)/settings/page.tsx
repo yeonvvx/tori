@@ -317,7 +317,7 @@ export default function Page() {
 
                             <div className="flex justify-center !mt-0 pb-4">
                                 <SeaLink
-                                    href="https://github.com/sponsors/yeonix"
+                                    href="https://github.com/sponsors/yeonvvx"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

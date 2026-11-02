@@ -11,7 +11,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 )
 
 type (

@@ -9,7 +9,7 @@ import (
 	"tori/internal/util"
 	"testing"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

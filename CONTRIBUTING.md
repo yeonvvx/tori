@@ -100,7 +100,7 @@ See [DEVELOPMENT_AND_BUILD.md](DEVELOPMENT_AND_BUILD.md) for setup, backend, fro
 Recommended workflow:
 
 ```bash
-git remote add upstream https://github.com/yeonix/tori.git
+git remote add upstream https://github.com/yeonvvx/tori.git
 git checkout main
 git pull upstream main
 git checkout -b <feature-or-fix-name>

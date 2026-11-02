@@ -16,7 +16,7 @@ import (
 // This allows updates even if Tori is removed from GitHub
 var (
 	websiteUrl           = "https://tori.app/api/release"
-	fallbackGithubUrl    = "https://api.github.com/repos/yeonix/tori/releases/latest"
+	fallbackGithubUrl    = "https://api.github.com/repos/yeonvvx/tori/releases/latest"
 	githubCheckUrl       = "https://tori.app/api/github-status"
 	toriStableUrl     = "https://tori.app/api/updates/stable/stable_server.json"
 	toriNightlyUrl    = "https://tori.app/api/updates/nightly/nightly_server.json"

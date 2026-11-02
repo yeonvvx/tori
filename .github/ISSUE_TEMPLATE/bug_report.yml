@@ -15,7 +15,7 @@ body:
             My version of the app is the latest available
           required: true
         - label: >-
-            I have checked open and closed [issues](https://github.com/yeonix/tori/issues)
+            I have checked open and closed [issues](https://github.com/yeonvvx/tori/issues)
           required: true
         - label: >-
             I have checked the [docs](https://tori.app/docs) for a fix

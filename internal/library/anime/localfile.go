@@ -3,7 +3,7 @@ package anime
 import (
 	"tori/internal/library/filesystem"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 )
 
 const (

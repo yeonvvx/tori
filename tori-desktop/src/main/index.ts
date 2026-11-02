@@ -218,7 +218,7 @@ setupLogging()
 setupChromiumFlags()
 const _development = process.env.NODE_ENV === "development"
 const _isRsbuildFrontend = true
-const DEFAULT_UPDATE_FEED_URL = "https://github.com/yeonix/tori/releases/latest/download"
+const DEFAULT_UPDATE_FEED_URL = "https://github.com/yeonvvx/tori/releases/latest/download"
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Custom protocol for web content
@@ -272,7 +272,7 @@ function setupAppProtocol() {
             }
 
             if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-                return net.fetch(`file://${filePath}`)
+                return net.fetch(require("url").pathToFileURL(filePath).href)
             }
 
             if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
@@ -285,7 +285,7 @@ function setupAppProtocol() {
             // fallback to root index.html
             logger.protocol.warn("Route fallback; serving index.html", request.url)
             const fallbackPath = path.join(webPath, "index.html")
-            return net.fetch(`file://${fallbackPath}`)
+            return net.fetch(require("url").pathToFileURL(fallbackPath).href)
         })
     } else {
         protocol.handle("app", async (request: Request) => {
@@ -294,7 +294,7 @@ function setupAppProtocol() {
             let filePath = path.join(webPath, urlPath)
 
             if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-                const response = await net.fetch(`file://${filePath}`)
+                const response = await net.fetch(require("url").pathToFileURL(filePath).href)
                 const newHeaders = new Headers(response.headers)
                 newHeaders.set("Cross-Origin-Opener-Policy", "same-origin")
                 newHeaders.set("Cross-Origin-Embedder-Policy", "credentialless")
@@ -308,7 +308,7 @@ function setupAppProtocol() {
             const ext = path.extname(urlPath)
             if (!ext || ext === ".html") {
                 const fallbackPath = path.join(webPath, "index.html")
-                const response = await net.fetch(`file://${fallbackPath}`)
+                const response = await net.fetch(require("url").pathToFileURL(fallbackPath).href)
                 const newHeaders = new Headers(response.headers)
                 newHeaders.set("Cross-Origin-Opener-Policy", "same-origin")
                 newHeaders.set("Cross-Origin-Embedder-Policy", "credentialless")

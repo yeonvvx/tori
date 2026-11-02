@@ -6,7 +6,7 @@ import (
 	hibiketorrent "tori/internal/extension/hibike/torrent"
 	"tori/internal/util"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 )
 
 type BatchHistoryResponse struct {

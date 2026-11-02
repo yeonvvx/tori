@@ -1,6 +1,6 @@
 # Tori Development and Build Guide
 
-- [Tori Guide](https://github.com/yeonix/tori/blob/main/tori/README.md)
+- [Tori Guide](https://github.com/yeonvvx/tori/blob/main/tori/README.md)
 
 ## Tech stack
 
@@ -8,7 +8,7 @@
     * API: [Echo](https://echo.labstack.com/)
     * Plugin system: [Goja](https://github.com/dop251/goja) for Javascript runtimes
     * Database: [SQLite](https://github.com/glebarez/sqlite) handled via [GORM](https://gorm.io/)
-    * File scanner: [Habari](https://github.com/yeonix/habari) for filename parsing
+    * File scanner: [Habari](https://github.com/yeonvvx/habari) for filename parsing
     * Torrent streaming: [anacrolix/torrent](https://github.com/anacrolix/torrent) for Bittorrent client
     * OS Integration: [Fyne](https://github.com/fyne-io/systray) for Windows system tray management
     * MKV Parser: Fork of [matroska-go](https://github.com/luispater/matroska-go)

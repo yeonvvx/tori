@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	DownloadUrl = "https://github.com/yeonix/tori/releases/latest/download/"
+	DownloadUrl = "https://github.com/yeonvvx/tori/releases/latest/download/"
 )
 
 func main() {

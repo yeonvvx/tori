@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 )
 
 const (

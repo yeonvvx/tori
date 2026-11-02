@@ -4,9 +4,6 @@ go 1.27.1
 
 require (
 	fyne.io/systray v1.12.0
-	github.com/yeonix/go-astisub v0.2.1
-	github.com/yeonix/habari v0.1.12
-	github.com/yeonix/hls-m3u8 v0.1.0
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/Microsoft/go-winio v0.6.2
 	github.com/PuerkitoBio/goquery v1.13.0
@@ -51,6 +48,9 @@ require (
 	github.com/spf13/cast v1.10.0
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.12.1
+	github.com/yeonvvx/go-astisub v0.2.1
+	github.com/yeonvvx/habari v0.1.12
+	github.com/yeonvvx/hls-m3u8 v0.1.0
 	github.com/ziflex/lecho/v3 v3.11.1
 	go.uber.org/atomic v1.11.0
 	golang.org/x/crypto v0.56.0
@@ -66,6 +66,7 @@ require (
 )
 
 require (
+	github.com/5rahim/go-astisub v0.2.1 // indirect
 	github.com/99designs/gqlgen v0.17.73 // indirect
 	github.com/RoaringBitmap/roaring/v2 v2.16.0 // indirect
 	github.com/alecthomas/atomic v0.1.0-alpha2 // indirect
@@ -197,4 +198,4 @@ require (
 
 tool golang.org/x/mobile/cmd/gobind
 
-replace github.com/anacrolix/torrent => github.com/yeonix/torrent v0.1.3
+replace github.com/anacrolix/torrent => github.com/yeonvvx/torrent v0.1.3

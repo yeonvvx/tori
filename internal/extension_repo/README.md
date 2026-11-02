@@ -7,6 +7,6 @@
 	```
 	
 	```bash
-	yaegi extract "github.com/yeonix/hibike/a/b"
+	yaegi extract "github.com/yeonvvx/hibike/a/b"
 	yaegi extract "github.com/a/b/c"
 	```

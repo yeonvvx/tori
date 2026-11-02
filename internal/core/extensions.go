@@ -25,7 +25,7 @@ func LoadExtensions(extensionRepository *extension_repo.Repository, logger *zero
 		Type:        extension.TypeMangaProvider,
 		Author:      "Tori",
 		Lang:        "multi",
-		Icon:        "https://raw.githubusercontent.com/yeonix/hibike/main/icons/local-manga.png",
+		Icon:        "https://raw.githubusercontent.com/yeonvvx/hibike/main/icons/local-manga.png",
 	}, manga_providers.NewLocal(config.Manga.LocalDir, logger))
 
 	// Load external extensions

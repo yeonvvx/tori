@@ -277,7 +277,7 @@ func TestValidateReleaseUrl(t *testing.T) {
 		expectedOutput bool
 	}{
 		{
-			url:            "https://github.com/yeonix/tori/releases/download/v3.5.1/tori-3.5.1_MacOS_arm64.dmg",
+			url:            "https://github.com/yeonvvx/tori/releases/download/v3.5.1/tori-3.5.1_MacOS_arm64.dmg",
 			expectedOutput: true,
 		},
 		{

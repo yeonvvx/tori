@@ -868,7 +868,7 @@ export function GettingStartedPage({ status }: { status: Status }) {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
                 >
-                    By yeonix
+                    By yeonvvx
                 </motion.p>
             </div>
         </div>

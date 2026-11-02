@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 	"github.com/adrg/strutil/metrics"
 	"github.com/rs/zerolog"
 	"github.com/samber/lo"

@@ -91,3 +91,16 @@ docs/support-skills
 local_testing
 dist-server
 scripts/build.go
+
+# Build artifacts — never commit
+tori-server-*
+tori-desktop/binaries/tori-server-*
+tori-desktop/resources/tori-server-*
+tori-desktop/dist/
+tori-desktop/web-denshi/
+tori-web/out/
+tori-web/out-denshi/
+tori-web/dist/
+*.dmg
+*.exe
+*.AppImage

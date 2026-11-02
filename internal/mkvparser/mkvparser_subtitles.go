@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yeonix/go-astisub"
+	"github.com/yeonvvx/go-astisub"
 )
 
 const (

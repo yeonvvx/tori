@@ -114,7 +114,7 @@ func (h *Handler) HandleGetChangelog(c echo.Context) error {
 		return h.RespondWithData(c, cached)
 	}
 
-	changelogBody, err := http.Get("https://raw.githubusercontent.com/yeonix/tori/main/CHANGELOG.md")
+	changelogBody, err := http.Get("https://raw.githubusercontent.com/yeonvvx/tori/main/CHANGELOG.md")
 	if err != nil {
 		return h.RespondWithData(c, []*changelogItem{})
 	}

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yeonix/habari"
+	"github.com/yeonvvx/habari"
 	"github.com/samber/lo"
 	"github.com/samber/mo"
 )

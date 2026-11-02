@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yeonix/go-astisub"
+	"github.com/yeonvvx/go-astisub"
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"

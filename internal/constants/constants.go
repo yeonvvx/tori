@@ -8,7 +8,7 @@ import (
 const (
 	// Brand — swap these when rebranding the fork.
 	AppName    = "Tori"
-	AppRepoURL = "https://github.com/yeonix/tori"
+	AppRepoURL = "https://github.com/yeonvvx/tori"
 
 	Version              = "3.10.4"
 	VersionName          = "Saisei"
@@ -25,6 +25,6 @@ const (
 	ToriRoomsVersion  = "1.0.0"
 )
 
-var DefaultExtensionMarketplaceURL = util.Decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3llb25peC90b3JpLWV4dGVuc2lvbnMvcmVmcy9oZWFkcy9tYWluL21hcmtldHBsYWNlLmpzb24=")
-var AnnouncementURL = util.Decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3llb25peC9oaWJpa2UvcmVmcy9oZWFkcy9tYWluL3B1YmxpYy9hbm5vdW5jZW1lbnRzLmpzb24=")
+var DefaultExtensionMarketplaceURL = util.Decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3llb252dngvdG9yaS1leHRlbnNpb25zL3JlZnMvaGVhZHMvbWFpbi9tYXJrZXRwbGFjZS5qc29u")
+var AnnouncementURL = util.Decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3llb252dngvaGliaWtlL3JlZnMvaGVhZHMvbWFpbi9wdWJsaWMvYW5ub3VuY2VtZW50cy5qc29u")
 var InternalMetadataURL = util.Decode("aHR0cHM6Ly9hbmltZS5jbGFwLmluZw==")
