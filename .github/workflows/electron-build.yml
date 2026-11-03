@@ -11,6 +11,11 @@ on:
         value: ${{ jobs.build-electron.outputs.app_version }}
 
 jobs:
+
+env:
+  GOSUMDB: off
+  GONOSUMCHECK: "*"
+
   build-electron:
     strategy:
       fail-fast: false
