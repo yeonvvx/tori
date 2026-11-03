@@ -10,12 +10,12 @@ on:
         description: "The version of the app"
         value: ${{ jobs.build-electron.outputs.app_version }}
 
-jobs:
-
 env:
-  GOSUMDB: off
-  GONOSUMCHECK: "*"
+  GOSUMDB: "off"
+  GOFLAGS: "-mod=mod"
+  GOPROXY: "direct"
 
+jobs:
   build-electron:
     strategy:
       fail-fast: false

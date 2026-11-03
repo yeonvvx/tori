@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+env:
+  GOSUMDB: "off"
+  GOFLAGS: "-mod=mod"
+  GOPROXY: "direct"
+
 jobs:
 
   build-webapp: # TODO Uncomment if building web
