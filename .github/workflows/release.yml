@@ -32,7 +32,7 @@ jobs:
           cd tori-web/
           npm install
           npx rsbuild build
-          env-cmd -f .env.denshi npx rsbuild build
+          npx env-cmd -f .env.denshi npx rsbuild build
           cd ..
       # Upload the output to be used in the next job
       - name: Upload web folder
