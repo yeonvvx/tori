@@ -150,7 +150,7 @@ jobs:
       - name: Install and build 📦️
         run: |
           cd tori-desktop
-          npm ci
+          npm install
           npm run build:main
           npm run sync:mpv-prism -- ${{ matrix.mpv_prism_target }}
           npx electron-builder build ${{ matrix.electron_args }}
